@@ -7,11 +7,10 @@ import java.util.Random;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import esercizio1.Application1;
 import esercizio2.thread.MyThread;
 
 public class Application2 {
-	public static Logger logger = LoggerFactory.getLogger(Application1.class);
+	public static Logger logger = LoggerFactory.getLogger(Application2.class);
 
 	public static void main(String[] args) throws InterruptedException {
 
